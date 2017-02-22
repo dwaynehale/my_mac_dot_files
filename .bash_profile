@@ -31,3 +31,6 @@ function hide_shown_files() {
 	defaults write com.apple.finder AppleShowAllFiles NO
 	killall Finder
 }
+function shoo_vagrant() {
+	vagrant up && vagrant ssh
+}
